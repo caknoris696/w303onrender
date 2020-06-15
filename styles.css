@@ -1,11 +1,13 @@
-*{margin:0;padding:0;vertical-align: baseline;}
+*{margin:0;padding:0;}
 html{
-    background: #230007;
-    font-family: Arial;
+    background: #111;
+    font-family: Tahoma;
 }
-
+body{
+    margin:0;
+}
 .logo{
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 .logo > img, .img-respo{
@@ -25,8 +27,14 @@ article{
 article > p{
     margin:15px 0;
 }
-article .button, article .buttonan{
+article .button, footer .buttonan{
     text-align: center;
+}
+footer .buttonan{
+    border-radius:20px;
+}
+footer .buttonan:hover{
+    background: #ccc;
 }
 .button, .buttonan{
     display: block;
@@ -34,7 +42,7 @@ article .button, article .buttonan{
     text-decoration: none;
 }
 .button{
-    background:#490609;
+    background:#111;
 }
 .wa{
     background:#25D366;
@@ -87,8 +95,8 @@ footer{
     letter-spacing: 0.1em;
     line-height: 2em;
     height: 2em;
-    border-bottom: 1px solid #6c161a;
-    background:#490609;
+    border-bottom: 1px solid #333;
+    background:#111;
 }
  
 #primary_nav li:last-child a {
@@ -115,11 +123,6 @@ footer{
     }
     a.to_nav {
         display: none;
-    }
-    #primary_nav {
-        position: absolute;
-        top: 5px;
-        background: none;
     }
      
     #primary_nav li {
